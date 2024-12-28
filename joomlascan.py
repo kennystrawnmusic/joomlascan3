@@ -253,7 +253,7 @@ def main(argv):
             sys.exit(1)
 
         # Rimuovo un eventuale barra alla fine del url
-        if url[-1:] is "/":
+        if url[-1:] == "/":
             url = url[:-1]
     else:
         print("")
